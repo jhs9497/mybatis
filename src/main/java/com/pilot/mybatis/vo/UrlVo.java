@@ -1,13 +1,12 @@
 package com.pilot.mybatis.vo;
 
-public class Url {
-
+public class UrlVo {
 	private int id;
 	private String shortUrl;
 	private String longUrl;
 	
 	
-	public Url(int id, String shortUrl, String longUrl) {
+	public UrlVo(int id, String shortUrl, String longUrl) {
 		super();
 		this.id = id;
 		this.longUrl = longUrl;
